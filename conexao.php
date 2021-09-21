@@ -10,6 +10,7 @@
         echo "Falha ao conectar: (" .$mysqli->connect_errno .") " .$mysqli->connect_error;
     }else{
         echo "Mensagem enviada com sucesso!";
+        header('Location: ./main.html');
     }
 
 

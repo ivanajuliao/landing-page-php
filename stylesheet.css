@@ -21,7 +21,7 @@ body {
   animation: changeBackgroundImage 20s infinite;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
   background-position: left left;
   background-repeat: no-repeat;
   background-attachment: fixed;

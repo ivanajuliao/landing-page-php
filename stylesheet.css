@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  /* background-color: #e5e9eb; */
+  background-image: linear-gradient(to top, rgb(86, 102, 125),rgb(165, 95, 95), rgb(251, 215, 181), rgb(244, 248, 250));
 }
 
 .title {
@@ -26,6 +28,41 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
+}
+
+.btn-cadastro{
+  background-color: rgb(86, 102, 125);
+  color:whitesmoke;
+}
+
+.btn-cadastro:hover {
+  color: rgb(86, 102, 125);
+  border: 1px solid rgb(86, 102, 125);
+  background-color:white;
+
+}
+
+.box-img{
+  width: 930px;
+  height: auto;
+}
+
+@keyframes changeBackgroundImage {
+  0% {
+    background-image: url('./img/img15.jpg');
+  }
+  20% {
+    background-image: url('./img/img4.jpg');
+  }
+  40% {
+    background-image: url('./img/img2.jpg');
+  }
+  80% {
+    background-image: url('./img/img11.jpg');
+  }
+  100% {
+    background-image: url('./img/img7.jpg');
+  }
 }
 
 /* @keyframes changeBackgroundImage {
@@ -78,20 +115,3 @@ body {
     background-image: url('./img/img16.jpg');
   }
 } */
-@keyframes changeBackgroundImage {
-  0% {
-    background-image: url('./img/img15.jpg');
-  }
-  20% {
-    background-image: url('./img/img4.jpg');
-  }
-  40% {
-    background-image: url('./img/img2.jpg');
-  }
-  80% {
-    background-image: url('./img/img11.jpg');
-  }
-  100% {
-    background-image: url('./img/img7.jpg');
-  }
-}

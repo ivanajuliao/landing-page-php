@@ -12,13 +12,18 @@ body {
 
 .title {
   margin: 0 auto;
-  color: white; 
+  color: rgb(86, 102, 125)te; 
   font-family: 'Lato', sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+ 
 }
 
 .clothes {
-  width:100%;
+  width: 100%;
   height: 100%;
   animation: changeBackgroundImage 20s infinite;
   display: flex;

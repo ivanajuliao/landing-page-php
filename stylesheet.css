@@ -38,14 +38,18 @@ body {
 
 .btn-cadastro{
   background-color: rgb(86, 102, 125);
+  /* background-color: rgb(255, 220, 186); */
   color:whitesmoke;
+  
+  
 }
 
 .btn-cadastro:hover {
   color: rgb(86, 102, 125);
+  /* color: rgb(255, 220, 186); */
   border: 1px solid rgb(86, 102, 125);
-  background-color:white;
-
+  background-color:whitesmoke;
+  font-weight: bold;
 }
 
 .box-img{

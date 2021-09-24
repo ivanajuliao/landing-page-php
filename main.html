@@ -44,15 +44,16 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" for="name">Nome</label>
-                                <input type="text" class="form-control"  name="nome" id="name"  required>
+                                <input type="text" class="form-control"  name="nome" id="name" required>
+                                <!-- <input type="text" class="form-control"  name="nome" id="name"  pattern="/[\w\s]+/"  required> -->
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" for="email">Email</label>
-                                <input type="email" class="form-control"  name="email" id="email" placeholder="" required>
+                                <input type="email" class="form-control"  name="email" id="email" placeholder="" pattern="/[\w\.\_]+@\w+(\.\w+)+/" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" for="mensagem">Mensagem</label>
-                                <textarea type="text" minlength="10" maxlength="50" class="form-control"  name="mensagem" id="mensagem" placeholder="" required></textarea>
+                                <textarea type="text" minlength="10" class="form-control"  name="mensagem" id="mensagem" placeholder="" required></textarea>
                             </div>
                             
                             <button class="w-100 btn btn-lg btn-cadastro" type="submit">Cadastrar</button>

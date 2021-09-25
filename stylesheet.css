@@ -53,8 +53,8 @@ body {
 }
 
 .box-img{
-  width: 930px;
-  height: auto;
+  width: 800px;
+  height: 100%;
 }
 
 /* @keyframes changeBackgroundImage {
